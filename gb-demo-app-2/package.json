@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nwebx run-many --target=serve --all",
+    "start": "nx run-many --target=serve --all",
     "start:api": "nx serve api --port 3001",
     "start:web": "nx serve web --port 3002 --open",
     "build": "nx affected:build --all --configuration=production",
