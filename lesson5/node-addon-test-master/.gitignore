@@ -103,9 +103,10 @@ dist
 # TernJS port file
 .tern-port
 
-# ----------------
-/gb-demo-app-4/
-/gb-demo-app-6/
-/gb-demo-app-7/
-/gb-demo-app-8/
-/gb-demo-redis/
+# C++
+.vs
+build
+cmake-build-debug
+cmake-build-release
+boost
+fmt
